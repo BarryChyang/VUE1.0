@@ -1,0 +1,74 @@
+:root{
+    --mycolor01: #7F9871;
+    --mycolor02: #9795A3;
+    --mycolor03: #C94F44;
+    --mycolor04: #261326;
+    --mycolor05: #f1b978;
+    --mycolor06: #f3efb3;
+    --mywhite: #e9e7df;
+}
+.box01{
+    height: 180px;
+    background-color: var(--mycolor02);
+    border: 3px solid var(--mycolor03);
+    line-height: 180px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--mycolor06);
+}
+.box02{
+    height: 120px;
+    background-color: var(--mycolor04);
+    border: 3px solid var(--mycolor03);
+    line-height: 120px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--mycolor01);
+}
+
+.box03{
+    background-color: var(--mywhite);
+}
+.box03:hover{
+    background-color: var(--mycolor06);
+    border: 3px solid var(--mycolor04); 
+}
+
+.mybtn{
+    display: block;
+    border: 3px solid var(--mycolor04); 
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: var(--mycolor06);
+    color: var(--mycolor01);
+}
+
+.body{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.demo {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: var(--color5);
+    border: 2px solid var(--color1);
+}
+.font-100{
+    font-weight: 100;
+}
+.font-300{
+    font-weight: 300;
+}
+.font-500{
+    font-weight: 500;
+}
+.font-700{
+    font-weight: 700;
+}
+.font-900{
+    font-weight: 900;
+}

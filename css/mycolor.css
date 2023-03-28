@@ -1,0 +1,115 @@
+:root {
+      --color1: #252326;
+      --color2: #D9CCC1;
+      --color3: #BF9288;
+      --color4: #A66F6A;
+      --color5: #3A36F5;
+      --color6: #3FC1E8;
+      --color7: #3F7EE8;
+      --color8: #3FE8CA;
+      --color9: #45FF8F;
+      --color10: #FFD4FC;
+      --color11: #FFA3B9;
+      --color12: #FF577F;
+      --color13: #F84775;
+      --color14: #E24D7B;
+      --color15: #EADB1B;
+      --color16: #FF9A00;
+      --color17: #D38235;
+      --color18: #D86018;
+      --color19: #590707;
+      --color20: #d4efff;
+      --white:#ffffff;
+      --black:#000;
+
+}
+
+.bg-cover {
+      background-size: cover;
+      background-position: center center;
+}
+
+.mybtn {
+      display: block;
+      width: auto;
+      height: 50px;
+      background-color: var(--color20);
+      line-height: 50px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bolder;
+      color: var(--color1);
+
+}
+
+.mybtn:hover {
+      background-color: var(--color20);
+}
+
+
+.mybox1 {
+      background-color: var(--color20);
+      border: 2px solid var(--color1);
+      height: 180px;
+      line-height: 180px;
+      text-align: center;
+      font-size: 36px;
+      font-weight: bolder;
+
+}
+
+.mybox2 {
+      background-color: var(--color20);
+      border: 2px solid var(--color1);
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 36px;
+      font-weight: bolder;
+
+}
+
+.mybox3 {
+    background-color: var(--color20);
+    border: 2px solid var(--color1);
+    width: 200px;
+    height: 200px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;500;700;900&display=swap'); */
+.body{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.demo {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: var(--black);
+    border: 2px solid var(--color1);
+    color: var(--white);
+}
+.font-100{
+    font-weight: 100;
+}
+.font-300{
+    font-weight: 300;
+}
+.font-500{
+    font-weight: 500;
+}
+.font-700{
+    font-weight: 700;
+}
+.font-900{
+    font-weight: 900;
+}
+
+.myh1{
+    color: white;
+}
